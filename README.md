@@ -1,4 +1,4 @@
-# Spotify-frontend-clone  <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/692b7855-6e09-4d10-a483-ce71019accca" />
+# Spotify-frontend-clone  <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/692b7855-6e09-4d10-a483-ce71019accca" />
 
 
 
