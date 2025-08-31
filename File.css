@@ -1,0 +1,407 @@
+*{
+     font-family: 'Montserrat', sans-serif;
+     margin: 0;
+     background-color: black;
+     color: #fff;
+     overflow: hidden;
+
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.sidebar
+{
+    background-color: rgb(0, 0, 0);
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-palyer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+
+}
+.nav-option{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 2.5rem;
+    opacity: 0.78;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    padding-bottom: 10px;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.8rem;
+    background-color: #121212;
+}
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+    background-color: #121212;
+    
+}
+.Library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top:0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+}
+.lib-option-nav-option{
+background-color:  #121212;
+margin:0.5rem ;
+display: flex;
+justify-content: center;
+align-items:center ;
+}
+.lib-option-nav-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color:  #121212;
+}
+.lib-option-nav-option a{
+    padding-left: 1rem;
+    background-color:  #121212;
+}
+.icons{
+    background-color: #121212;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    margin: 1rem;
+    display: flex;
+    
+}
+.icons i{
+    background-color: #121212;
+    opacity: 0.8;
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+
+}
+.icons i:hover{
+    opacity: 1;
+}
+.lib-box{
+    background-color: #121212;
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.8rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1.25rem ;
+}
+.box-p1{
+     background-color: #232323;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom:1rem ;
+}
+.box-p2{
+     background-color: #232323;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    padding-bottom: 0.5rem;
+}
+.badge{
+     background-color: #fff;
+     border: none;
+     border-radius: 100px;
+     color:black;
+     padding: 0.25rem 0.5rem;
+     font-weight: 600;
+     margin-top: 0.5rem;
+     height: 2rem;
+     width: fit-content;
+}
+.badgesmtg{
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+     font-weight: 600;
+     margin-top: 0.5rem;
+     height: 2rem;
+     width: fit-content;
+     cursor: pointer;
+}
+.badgehide{
+    background-color: #fff;
+     border: none;
+     border-radius: 100px;
+     color:black;
+     padding: 0.25rem 0.5rem;
+     font-weight: 600;
+     margin-top: 0.5rem;
+     height: 2rem;
+     width: fit-content;
+     cursor: pointer;
+}
+.stickynav{
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0 ;
+    border-bottom: #fffefe;
+}
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+    background-color: #121212;
+}
+.sticky-nav-icons img{
+    height:1.8rem ;
+    width: 1.8rem ;
+    background-color: #060505;
+    padding: 0.4rem;
+    border-radius: 100%;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    margin-right: 0.7rem;
+}
+.sticky-nav-options button{
+   margin: 0.8rem;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+    .badgehide{
+        display: none;
+    }
+}
+
+ h2{
+    background-color: #121212;
+    margin-bottom: 0.75rem;
+    margin-left: 0.75rem;
+
+}
+.card-tittle{
+    background-color: #232323;
+    margin-top: 0.75rem;
+    font-weight: 600;
+}
+.card-info{
+    margin-top: 0.45rem;
+    background-color: #232323;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.3rem;
+    margin-left:1.5rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+}
+.cards-container{
+display: flex;
+background-color: #121212;
+flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.footer{
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #121212;
+}
+.line{
+    width:90% ;
+    height: 30%;
+    border-top: 1px solid white ;
+    opacity: 0.4;
+    background-color: #121212;
+
+}
+.music-palyer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: black;
+
+}
+.album{
+    width: 25%;;
+    background-color: #000000;
+}
+.player{
+    width: 50%;
+    background-color: #000000;
+}
+.controls{
+    width: 25%;
+     background-color: #000000;
+    
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+     background-color: #000000;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.8rem;
+    opacity: 0.5rem;
+     background-color: #121212;
+     padding-top: 0.6rem;
+}
+.player-control-icon:hover{
+    opacity: 1rem;
+}
+.progress-bar{
+    width: 65%;
+     background-color: #000000;
+     cursor: pointer;
+}
+.playback-bar{
+     background-color: #000000;
+     padding-left: 5rem;
+     padding-top: 0.6rem;
+}/*
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+.progress-bar::-webkit-slider-thumb{
+    height: 16px;
+    width: 16px;
+    background-color: #1db760;
+}*/
+
+.controls-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls-control i {
+    padding: 0.5rem;
+     cursor: pointer;
+     font-size: 1.2rem;
+}
+.progress- {
+    padding: 0.5rem;
+     cursor: pointer;
+}
+.album {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000000; 
+    border-radius: 0.5rem;     
+}
+
+.alu {
+    display: flex;
+    align-items: center;
+}
+
+.aluclass {
+    height: 4.5rem;
+    width: 5.5rem;
+    border-radius: 0.4rem;
+    margin-right: 0.5rem;
+    right: 0.2rem;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.track-info p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+.track-info h5 {
+    margin: 0.2rem 0 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.album-controls {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.album-controls i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #f6f5f5;
+}
+.card:hover {
+  background-color: #3d3c3c;
+}
+.card:hover img  {
+  background-color: #3d3c3c;
+}
+.card:hover  p{
+  background-color: #3d3c3c;
+}
+.badgehide:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.badgesmtg:hover{
+ background-color: #ffffff;
+    color: #000000;
+}
+.sticky-nav-icons :hover{
+     background-color: #3d3c3c;
+}
