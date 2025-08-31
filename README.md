@@ -1,4 +1,6 @@
-# Spotify-frontend-clone
+# Spotify-frontend-clone  <img width="96" height="96" alt="image" src="https://github.com/user-attachments/assets/692b7855-6e09-4d10-a483-ce71019accca" />
+
+
 
 A basic **Spotify Web Player frontend clone** built with HTML and CSS.  
 This project focuses on replicating Spotify's **UI layout** including sidebar, navigation, cards, and music player controls.
